@@ -6,49 +6,70 @@ body {
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #mainHeading {
     color: red;
     background-color: burlywood;
+    text-align: center;
 }
 
 #diagram {
-    height: 90%;
-    width: 90%;
+    height: 85%;
+    width: 85%;
 }
 
 #toneHole {
-    height: 110%;
-    width: 110%;
-    float: right
+    height: 100%;
+    width: 100%;
+    /* float: right; */
 
 }
 
-figure {
-    /* display:inline-flex; */
-    text-align: left;
-    /* max-width: 100%; */
+#example {
+    width: 900.58px;
+    height: 243.4px;
+    margin-right: 10px;
+}
+
+#pea {
+    width: 80%;
+    height: 80%;
+    /* margin-left: 20%; */
+}
+
+img {
+    border-radius: 5px;
 }
 
 figcaption {
     margin-top: 8px;
+    /* text-align: left; */
 }
 
 table, tr, td {
     /* border:3px solid black; */
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 7%;
+    /* margin: 8%; */
+    width: 80%;
 }
 
 td {
     width: 50%;
 }
 
+.caption {
+    text-align: left;
+}
+
 .banner {
     width: 1217px;
     height: 243.4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  /* width: 50%; */
 }
 
 .funParagraph {
@@ -61,6 +82,6 @@ p {
     text-align: left;
 }
 
-footer {
+h4, footer {
     text-align: center;
 }
