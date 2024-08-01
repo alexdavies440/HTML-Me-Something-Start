@@ -15,29 +15,36 @@ body {
 }
 
 #diagram {
-    height: 40%;
-    width: 40%;
+    height: 90%;
+    width: 90%;
 }
 
 #toneHole {
-    height: 60%;
-    width: 60%;
+    height: 110%;
+    width: 110%;
+    float: right
+
 }
 
 figure {
-    display:inline-flex;
+    /* display:inline-flex; */
     text-align: left;
-    max-width: 50%;
+    /* max-width: 100%; */
 }
 
 figcaption {
-    margin-left: 8px;
+    margin-top: 8px;
 }
 
-/* .captions {
-    float: left;
-    width: 33%;
-} */
+table, tr, td {
+    /* border:3px solid black; */
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+td {
+    width: 50%;
+}
 
 .banner {
     width: 1217px;
