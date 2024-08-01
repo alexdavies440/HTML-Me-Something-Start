@@ -15,22 +15,33 @@ body {
 }
 
 #diagram {
-    position: relative;
-    right: 0%;
-    width: 510px;
-    height: 301px;
+    height: 40%;
+    width: 40%;
 }
 
 #toneHole {
-    position: relative;
-    left: 0%;
-    width: 510px;
-    height: 301px;
+    height: 60%;
+    width: 60%;
 }
 
+figure {
+    display:inline-flex;
+    text-align: left;
+    max-width: 50%;
+}
+
+figcaption {
+    margin-left: 8px;
+}
+
+/* .captions {
+    float: left;
+    width: 33%;
+} */
+
 .banner {
-    width: 1000px;
-    height: 200px;
+    width: 1217px;
+    height: 243.4px;
 }
 
 .funParagraph {
@@ -38,8 +49,8 @@ body {
 }
 
 p {
-    margin-left: 165px;
-    margin-right: 165px;
+    margin-left: 7.25%;
+    margin-right: 7.25%;
     text-align: left;
 }
 
