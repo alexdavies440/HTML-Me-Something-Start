@@ -30,10 +30,9 @@ body {
     height: 100%;
 }
 
-#pea {
-    width: 50%;
-    height: 50%;
-
+#crossSection {
+    height: 70%;
+    width: 70%;
 }
 
 img {
@@ -42,32 +41,50 @@ img {
 
 figcaption {
     margin-top: 8px;
-    /* text-align: left; */
+    margin-left: 7.25%;
+    margin-right: 7.25%;
+    text-align: left;
 }
 
 table {
-    border:3px solid black;
-    margin-left: 7%;
-    /* margin: 8%; */
-    width: 80%;
-}
-
-#table1 {
+    /* border:3px solid black; */
     table-layout: fixed;
     width: 85.5%;
     margin-left: 7.25%;
     margin-right: 7.25%;
 }
 
-#table2 {
+#peaTable {
+    table-layout: fixed;
+    width: 65.5%;
+    margin-left: 7.25%;
+    margin-right: 7.25%;
+    vertical-align: top;
+}
+
+#pea {
+    width: 70%;
+    height: 70%;
+}
+ 
+
+#peaCell {
+    width: 60%;
+    height: 100%;
+    
+ }
+
+/* #table2 {
     width: 85.5%;
     margin-left: 7.25%;
     margin-right: 7.25%;
-}
+} */
 
 tr, td {
-    border:3px solid black;
-    width: 50%;
+    /* border:3px solid black; */
+    width: 100%;
+    margin: 10px;
+    vertical-align: top;
 }
 
 .caption {
@@ -80,7 +97,6 @@ tr, td {
     display: block;
     margin-left: 7.25%;
     margin-right: 7.25%;
-  /* width: 50%; */
 }
 
 .funParagraph {
