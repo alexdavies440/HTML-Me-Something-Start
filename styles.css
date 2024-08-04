@@ -1,0 +1,53 @@
+body {
+    margin: 8px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: left;
+}
+
+p {
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+#mainHeading {
+    color: red;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    border:3px solid black;
+    table-layout: fixed;
+}
+
+tr, td {
+    border:3px solid black;
+    width: 50%;
+    vertical-align: top;
+}
+
+#recipes {
+    vertical-align: top;
+    margin-left: 30%;
+    font-size: x-large;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.largeImage {
+    /* height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 1%; */
+}
+
+footer {
+    text-align: center;
+}
