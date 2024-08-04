@@ -4,15 +4,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     text-align: left;
+    background-image: url(./images/tile.webp);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(40px);
 }
 
-p {
-    /* margin-left: 10%;
-    margin-right: 10%; */
-}
 
 #mainHeading {
     color: red;
+    text-align: center;
+    text-shadow: 0px 0px 10px goldenrod;
+    background-color: azure;
 }
 
 img {
@@ -21,12 +24,12 @@ img {
 }
 
 table {
-    border:3px solid black;
+    /* border:3px solid black; */
     table-layout: fixed;
 }
 
 tr, td {
-    border:3px solid black;
+    /* border:3px solid black; */
     width: 50%;
     vertical-align: top;
 }
@@ -41,12 +44,6 @@ tr, td {
     color: green;
 }
 
-.largeImage {
-    /* height: 80%;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 1%; */
-}
 
 footer {
     text-align: center;
