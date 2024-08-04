@@ -4,10 +4,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     text-align: left;
-    background-image: url(./images/tile.webp);
+    background-image: url(./images/tile-backsplash.webp);
+    background-size: 30%;
     background-repeat: repeat;
     background-attachment: fixed;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(10px);
 }
 
 
