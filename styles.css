@@ -25,22 +25,29 @@ p {
     border-radius: 5px;
 }
 
-h3 {
+h2 {
     color: rgb(255, 255, 255);
     padding: 8px;
     background-color: #ffffff31;
     text-align: left;
     margin-left: 7.5%;
     margin-right: 7.5%;
+    box-shadow: 0 0 1px grey;
     text-shadow: 0px 0px 3px #ffffff31;
     
 }
 
-footer {
+h3 {
     color: rgb(255, 255, 255);
-    padding: 8px;
-    background-color: #ffffff31;
     text-align: center;
+    padding: 8px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    text-shadow: 0px 0px 3px #ffffff31;
+}
+
+footer {
+    padding-bottom: 1px;
 }
 
 figcaption {
@@ -83,13 +90,16 @@ tr, td {
 .funParagraph {
     color: green;
     text-shadow: 0px 0px 2px darkcyan;
-    background-color: rgba(255, 255, 255, 0.379);
+    background-color: rgba(255, 255, 255, 0.534);
+    padding: 8px;
     
 }
 
 #mainHeading {
     color: red;
     padding: 8px;
+    margin-top: 8px;
+    box-shadow: 0 0 1px grey;
     text-shadow: 0px 0px 2px white;
     background-color: #ffffff31;
     background-position: center;
@@ -116,25 +126,6 @@ tr, td {
     width: 70%;
 }
 
-#peaTable {
-    table-layout: fixed;
-    width: 65.5%;
-    margin-left: 7.25%;
-    margin-right: 7.25%;
-    vertical-align: top;
-}
-
-#pea {
-    width: 70%;
-    height: 70%;
-}
- 
-
-#peaCell {
-    width: 60%;
-    height: 100%;
-    
- }
 
 
 
