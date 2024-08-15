@@ -40,14 +40,14 @@ h2 {
 h3 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 8px;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    padding: 16px;
+    background-color: #ffffff31;
     text-shadow: 0px 0px 3px #ffffff31;
+    box-shadow: 0 0 1px grey;
 }
 
 footer {
-    padding-bottom: 1px;
+    padding-bottom: 0px;
 }
 
 figcaption {
@@ -75,7 +75,7 @@ tr, td {
 .caption {
     text-align: left;
     color:#fffffe;
-    text-shadow: 0px 0px 3px #ffffff31;
+    text-shadow: 0 0 3px #ffffff31;
 }
 
 .banner {
@@ -89,7 +89,7 @@ tr, td {
 
 .funParagraph {
     color: green;
-    text-shadow: 0px 0px 2px darkcyan;
+    text-shadow: 0 0 2px darkcyan;
     background-color: rgba(255, 255, 255, 0.534);
     padding: 8px;
     
@@ -100,7 +100,7 @@ tr, td {
     padding: 8px;
     margin-top: 8px;
     box-shadow: 0 0 1px grey;
-    text-shadow: 0px 0px 2px white;
+    text-shadow: 0 0 2px white;
     background-color: #ffffff31;
     background-position: center;
     text-align: center;
